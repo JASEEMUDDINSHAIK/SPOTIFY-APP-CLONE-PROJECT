@@ -1,0 +1,746 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navBar{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+section>article{
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
+.Logo{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.Logo>a{
+    height: 100%;
+    width: 25%;
+    margin-top: 35px;
+}
+.Logo>a>svg{
+    height: 52%;
+    fill: white;
+    margin-left: 40px;
+}
+.Menu{
+    height: 100%;
+    width: 50%;
+}
+.Menu>ol{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Menu>ol>li>a{
+    font-size: 15px; 
+    font-weight: bolder;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.Menu>ol>li>.a:hover{
+    color: rgb(7, 204, 7);
+}
+
+/* ---------------------------------------Nav CSS ------------------------------ */
+
+#home{
+    height: 81vh;
+    width: 100%;
+    background: url(./bubbles-dktp.svg) center 108px / 120% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.phone{
+    height: 83%;
+    width: 18%;
+    margin-left: 270px;
+    background-color: white;
+    border: 7px solid white;
+    border-bottom: none;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+
+}
+#phonetop{
+    height: 11%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#speaker{
+    height: 6.5px;
+    width: 46px;
+    background-color: black;
+    border-radius: 50px;
+}
+#phoneimg{
+    height: 89%;
+    width: 100%;
+    background-image: url(./ab678e040000ed3aed58911aecc6dbc16949f40b.jpg);
+    background-size: cover;
+}
+.text{
+    height: 83%;
+    width: 58%;
+}
+h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    margin-top: 90px;
+    letter-spacing: -0.04em;
+    line-height: 1.15;
+}
+button{
+    height: 50px;
+    width: 180px;
+    font-weight: bolder;
+    border-radius: 50px;
+    border: none;
+    margin-top: 30px;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* --------------------------------------------------------home CSS ------------------------------------------------------------ */
+
+#home1{
+    height: 81vh;
+    width: 100%;
+    background-color: white;
+}
+.a{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b{
+    font-size: 38px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+#circles{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------------------------------circles start----------------------------------------------------------- */
+
+#play{
+    height: 75%;
+    width: 20%;
+}
+#playimage{
+    height: 48%;
+    width: 50%;
+    background:url(./Like.png);
+    border-radius: 50%;
+    margin-left: 25%;
+    background-size: cover;
+}
+#playtext{
+    text-align: center;
+}
+#playtext>.Pl{
+    height: 30px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    color: black;
+}
+#playtext>p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ---------------------------------------------------------circle1------------------------------------------------------------ */
+
+#playlist{
+    height: 75%;
+    width: 20%;
+}
+#playlistimage{
+    height: 48%;
+    width: 50%;
+    background:url(./Playlist.png);
+    border-radius: 50%;
+    margin-left: 25%;
+    background-size: cover;
+}
+#playlisttext{
+    text-align: center;
+}
+#playlisttext>.Pla{
+    height: 30px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    color: black;
+}
+#playlisttext>p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* --------------------------------------------------------circle2----------------------------------------------------------------- */
+
+#make{
+    height: 75%;
+    width: 20%;
+}
+#makeimage{
+    height: 48%;
+    width: 50%;
+    background:url(./Play.png);
+    border-radius: 50%;
+    margin-left: 25%;
+    background-size: cover;
+}
+#maketext{
+    text-align: center;
+}
+#maketext>.Playy{
+    height: 30px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    color: black;
+}
+#maketext>p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* --------------------------------------------------------------circle3------------------------------------------------------ */
+
+#save{
+    height: 75%;
+    width: 20%;
+}
+#saveimage{
+    height: 48%;
+    width: 50%;
+    background:url(./Save.png);
+    border-radius: 50%;
+    margin-left: 25%;
+    background-size: cover;
+}
+#savetext{
+    text-align: center;
+}
+#savetext>.sav{
+    height: 30px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    color: black;
+}
+#savetext>p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* --------------------------------------------------------home1 CSS---------------------------------------------- */
+
+.home2{
+    height:65vh;
+    width:100%;
+    background:linear-gradient(rgb(188, 32, 188),rgb(96,11,231));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cc{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    color: white;
+    letter-spacing: -2px;
+    word-spacing: -2.5px;
+}
+
+/* ------------------------------------------------------home2 CSS --------------------------------------------------- */
+
+#questions{
+    height: 78vh;
+    width: 100%;
+    background-color: white;
+}
+#gotquestions{
+    height: 32%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 39px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-top: 72px;
+    word-spacing: -3px;
+    letter-spacing: -3px;
+}
+#dropques{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#dropquestions{
+    height: 78%;
+    width: 75%;
+}
+
+/* -------------------------------------------------------------below question1------------------------------------------------- */
+
+#question1{
+    height: 24.8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-top: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    word-spacing: -1px;
+    padding-left: 20px;
+    border-bottom: 1px solid rgb(242, 240, 240);
+}
+#one{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    transform: rotate(90deg);
+}
+#question1:hover{
+    background-color: rgb(248, 244, 244);
+}
+#onee:hover{
+    text-decoration:underline 1.5px solid;
+}
+
+/* -----------------------------------------------------------------below question2----------------------------------------------- */
+
+#question2{
+    height: 24.8%;
+    width: 100%;
+    margin-top: 0.8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-top: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    word-spacing: -1px;
+    padding-left: 20px;
+    border-bottom: 1px solid rgb(242, 240, 240);
+}
+#two{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    transform: rotate(90deg);
+}
+#question2:hover{
+    background-color: rgb(248, 244, 244);
+}
+#twoo:hover{
+    text-decoration:underline 1.5px solid;
+}
+
+/* ------------------------------------------------------------below question3------------------------------------------------- */
+
+#question3{
+    height: 24.8%;
+    width: 100%;
+    margin-top: 0.8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-top: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    word-spacing: -1px;
+    padding-left: 20px;
+    border-bottom: 1px solid rgb(242, 240, 240);
+}
+#three{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    transform: rotate(90deg);
+}
+#question3:hover{
+    background-color: rgb(248, 244, 244);
+}
+#threee:hover{
+    text-decoration:underline 1.5px solid;
+}
+
+/* --------------------------------------------------------------below question4------------------------------------------------ */
+
+#question4{
+    height: 24.8%;
+    width: 100%;
+    margin-top: 0.8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-top: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    word-spacing: -1px;
+    padding-left: 20px;
+}
+#four{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    transform: rotate(90deg);
+}
+#question4:hover{
+    background-color: rgb(248, 244, 244);
+}
+#fourr:hover{
+    text-decoration:underline 1.5px solid;
+}
+
+/* ------------------------------------------------------home3 CSS ---------------------------------------------- */
+
+.home4{
+    height: 60vh;
+    width: 100%;
+    background: url(./bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-size: cover;
+}
+.re{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900; 
+    word-spacing: -9px;
+    letter-spacing: -2px;
+    color: white;
+    line-height: 1.2;
+}
+#button1{
+    margin-left: 665px;
+}
+/* ------------------------------------------------------home4 CSS pen---------------------------------------------- */
+
+.footer{
+    height: 75.5vh;
+    width: 100%;
+    background-color: black;
+    border: 1px solid;
+}
+.container{
+    height: 58%;
+    width: 75%;
+    margin-left: 186px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.container1{
+    height: 100%;
+    width: 69%;
+    border: 1px solid;
+}
+.lnavbar{
+    height: 15%;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 100%;
+    width: 25%;
+}
+.logo>a>svg{
+    height: 130px;
+    width: 130px;
+    fill: white;
+}
+.comp{
+    height: 100%;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: #919496;
+}
+.commu{
+    height: 100%;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: #919496;
+}
+.use{
+    height: 100%;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: #919496;
+}
+.indetail{
+    height: 85%;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+.empty{
+    height: 100%;
+    width: 25%;
+}
+.aboutcom{
+    height: 100%;
+    width: 25%;
+}
+.aboutcom>p>a{
+    text-decoration: none;
+    line-height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+}
+.aboutcom>p>a:hover{
+    color: rgb(75, 239, 75);
+}
+.commudetails{
+    height: 100%;
+    width: 25%;
+}
+.commudetails>p>a{
+    text-decoration: none;
+    line-height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+}
+.commudetails>p>a:hover{
+    color: rgb(75, 239, 75);
+}
+.linkdetails{
+    height: 100%;
+    width: 25%;
+}
+.linkdetails>p>a{
+    text-decoration: none;
+    line-height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+}
+.linkdetails>p>a:hover{
+    color: rgb(75, 239, 75);
+}
+
+/* -----------------------------------------------------icons container2 CSS---------------------------------------------------------- */
+
+.container2{
+    height: 100%;
+    width: 17%;
+    padding-top: 15px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.icon1{
+    height: 55px;
+    width: 55px;
+    background-color: #222326;
+    border-radius: 50px;
+}
+.fa-instagram{
+    font-size: 27px;
+    padding-left: 14.5px;
+    padding-top: 14px;
+    color:white;
+}
+.fa-instagram:hover{
+    color: rgb(75, 239, 75);
+}
+.icon2{
+    height: 55px;
+    width: 55px;
+    background-color: #222326;
+    border-radius: 50px;
+}
+.fa-twitter{
+    font-size: 23px;
+    padding-left: 16px;
+    padding-top: 17px;
+    color:white;
+}
+.fa-twitter:hover{
+    color: rgb(75, 239, 75);
+}
+.icon3{
+    height: 55px;
+    width: 55px;
+    background-color: #222326;
+    border-radius: 50px;
+}
+.fa-facebook-f{
+    font-size: 23px;
+    padding-left: 19px;
+    padding-top: 17px;
+    color:white;
+}
+.fa-facebook-f:hover{
+    color: rgb(75, 239, 75);
+}
+
+/* -----------------------------------------------------icons Done CSS---------------------------------------------------------- */
+
+.globe{
+    height: 15px;
+    width: 75%;
+    border: 1px solid;
+    margin-left: 186px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.fa-earth-africa{
+    font-size: 11px;
+    color: #989eb1;
+    margin-right: 7px;
+}
+.usa>a{
+    font-size: 12px;
+    color: #989eb1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.usa>a:hover{
+    color: rgb(75, 239, 75);
+}
+
+/* <-- ----------------------------------------------globe CSS__--------------------------------------------------------- --> */
+
+.cookie{
+    height: 45px;
+    width: 58%;
+    border: 1px solid;
+    margin-left: 60px;
+    margin-top: 15px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.cookiesname{
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -1px;
+}
+.cookiesname>a{
+    color: #636567;
+    text-decoration: none;
+}
+.cookiesname>a:hover{
+    color: rgb(75, 239, 75);
+}
+.Cookiesicon{
+    height: 30%;
+    width: 3%;
+    background-color:#06f;
+    border: 1px solid;
+    border-radius: 50px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left:2px;
+}
+.tick{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    color: #06f;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:3px;
+    border-radius: 10px;
+    margin-left: 2px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.wrong{
+    height: 100%;
+    width: 50%;
+    color: white;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:3px;
+    border-radius: 20px;
+    margin-right: 2px;
+}
+.sp{
+    height: -35px;
+    width: 8%;
+    display: flex;
+    justify-content:end;
+    align-items:center;
+    color: #989eb1; 
+    font-size: 12px;
+    text-align: end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -1px;
+    letter-spacing: -0.8px;
+    margin-left: 1205px;
+    margin-top:-30px;
+} 
+
+/* -----------------------------------------------------footer CSS ----------------------------------------------- */

@@ -1,0 +1,784 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(34, 76, 34);
+    display: flex;
+    justify-content: center;
+}
+#navbar>section{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar>section>.logo>a{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.logo>a>#firstlogo{
+    padding-top: 20px;
+    height: 110%;
+    fill: white;
+}
+#navbar>section>.menu{
+    height: 100%;
+    width: 40%;
+}
+ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+ul>li>a{
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+ul>li>.a:hover{
+    color: rgb(25, 209, 25);
+}
+.b{
+    color: #b4b7c3;
+}
+.c:hover{
+    cursor: default;
+}
+
+/* ------------------------------------------------------------------navbar completed--------------------------------------------- */
+
+#spotifysupport{
+    height: 83.5vh;
+    width: 100%;
+    background: linear-gradient(to top,black,black,black,black,black,black,rgb(34, 76, 34));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----------------------------------------------------support comleted-------------------------------------------- */
+
+#help{
+    height: 90%;
+    width: 40%;
+}
+#ss{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(225, 214, 214);
+}
+#how{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 41px;
+    word-spacing: -10px;
+    letter-spacing: -1px;
+    padding-top: 10px;
+    color: white;
+}
+#login{
+    display: flex;
+    padding-top: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#login>a{
+    color: white;
+    word-spacing: -3px;
+}
+#login>p{
+    padding-left: 3px;
+    word-spacing: -1px;
+    letter-spacing: -1.5px;
+    color: rgb(123, 120, 120);
+}
+
+/* -----------------------------------------------------logintext comleted-------------------------------------------- */
+
+#search{
+    height: 8.8%;
+    width: 100%;
+    background-color: white;
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+}
+#searchicon{
+    height: 100%;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-magnifying-glass{
+    font-size: 24px;
+    color: rgb(152, 145, 145);
+}
+#searchbar{
+    height: 100%;
+    width: 92%;
+}
+#searchspace{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+}
+
+/* -----------------------------------------------------searchbar comleted-------------------------------------------- */
+
+#allhelps{
+    height: 35%;
+    width: 100%;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/* ----------------------------------------------------------------cards begin------------------------------------------ */
+
+#topcards{
+    height: 46%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#top1{
+    height: 100%;
+    width: 31.5%;
+    background-color: rgb(175, 40, 150);
+    overflow: hidden;
+    border-radius: 4px;
+}
+#top1:hover{
+    cursor: pointer;
+}
+#top1>h3>a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 15px;
+    display: flex;
+    padding-top: 10px;
+}
+#top1>img{
+    padding-left: 145px;
+    transform: rotate(30deg);
+    padding-right: 155px;
+}
+
+/* ---------------------------------------------------------------top1 card completed------------------------------------------------ */
+
+#top2{
+    height: 100%;
+    width: 31.5%;
+    background-color: rgb(83, 122, 161);
+    overflow: hidden;
+    border-radius: 4px;
+}
+#top2:hover{
+    cursor: pointer;
+}
+#top2>h3>a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 15px;
+    display: flex;
+    padding-top: 10px;
+}
+#top2>img{
+    padding-left: 145px;
+    transform: rotate(30deg);
+    padding-right: 155px;
+}
+
+/* -----------------------------------------------------top2 card comleted-------------------------------------------- */
+
+#top3{
+    height: 100%;
+    width: 31.5%;
+    background-color: rgb(140, 25, 50);
+    overflow: hidden;
+    border-radius: 4px;
+}
+#top3:hover{
+    cursor: pointer;
+}
+#top3>h3>a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 15px;
+    display: flex;
+    padding-top: 10px;
+}
+#top3>img{
+    padding-left: 145px;
+    transform: rotate(30deg);
+    padding-right: 155px;
+}
+
+/* -----------------------------------------------------top3 card comleted-------------------------------------------- */
+
+#bottomcards{
+    height: 47%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#bottom1{
+    height: 100%;
+    width: 31.5%;
+    background-color: rgb(176, 98, 57);
+    overflow: hidden;
+    border-radius: 4px;
+}
+#bottom1:hover{
+    cursor: pointer;
+}
+#bottom1>h3>a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 15px;
+    display: flex;
+    padding-top: 10px;
+}
+#bottom1>img{
+    padding-left: 145px;
+    transform: rotate(30deg);
+    padding-right: 155px;
+}
+
+/* -----------------------------------------------------bottom1 card comleted-------------------------------------------- */
+
+#bottom2{
+    height: 100%;
+    width: 31.5%;
+    background-color: rgb(0, 100, 80);
+    overflow: hidden;
+    border-radius: 4px;
+}
+#bottom2:hover{
+    cursor: pointer;
+}
+#bottom2>h3>a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 15px;
+    display: flex;
+    padding-top: 10px;
+}
+#bottom2>img{
+    padding-left: 145px;
+    transform: rotate(30deg);
+    padding-right: 155px;
+}
+
+/* -----------------------------------------------------bottom2 card comleted-------------------------------------------- */
+
+#bottom3{
+    height: 100%;
+    width: 31.5%;
+    background-color: rgb(117, 117, 117);
+    overflow: hidden;
+    border-radius: 4px;
+}
+#bottom3:hover{
+    cursor: pointer;
+}
+#bottom3>h3>a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 15px;
+    display: flex;
+    padding-top: 10px;
+}
+#bottom3>img{
+    padding-left: 145px;
+    transform: rotate(30deg);
+    padding-right: 155px;
+}
+
+/* -----------------------------------------------------bottom3 card comleted-------------------------------------------- */
+
+#home2{
+    height: 59vh;
+    width: 100%;
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#quick{
+    height: 100%;
+    width: 40%;
+}
+#quickhelp{
+    height: 20%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    word-spacing: -4px;
+    padding-top: 27px;
+}
+
+/* ------------------------------------------------------questions started------------------------------------------- */
+
+#questions{
+    height: 73%;
+    width: 100%;
+}
+#question1{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+}
+#question1>h4:hover{
+    text-decoration: underline solid rgb(177, 165, 165);
+}
+#question1>p{
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+/* -------------------------------------------------------------question1 completed------------------------------------------- */
+
+#question2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+}
+#question2>h4:hover{
+    text-decoration: underline solid rgb(177, 165, 165);
+}
+#question2>p{
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+/* -------------------------------------------------------------question2 completed------------------------------------------- */
+
+#question3{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+}
+#question3>h4:hover{
+    text-decoration: underline solid rgb(177, 165, 165);
+}
+#question3>p{
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+/* -------------------------------------------------------------question3 completed------------------------------------------- */
+
+#question4{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+}
+#question4>h4:hover{
+    text-decoration: underline solid rgb(177, 165, 165);
+}
+#question4>p{
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+/* -------------------------------------------------------------question4 completed------------------------------------------- */
+
+#question5{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+}
+#question5>h4:hover{
+    text-decoration: underline solid rgb(177, 165, 165);
+}
+#question5>p{
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+/* -------------------------------------------------------------question5 completed------------------------------------------- */
+
+/* -------------------------------------------------------------home1 completed------------------------------------------- */
+
+#visit{
+    height: 43.8vh;
+    width: 100%;
+    background-color: #121212;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#community{
+    font-size: 43px;
+    word-spacing: 4px;
+    letter-spacing: -3px;
+    color: white;
+    padding-top: 78px;
+}
+#worldwide{
+    color: white;
+    font-size: 14.8px;
+    word-spacing: -2px;
+    padding-top: 25px;
+}
+#goto{
+    height: 50px;
+    width: 200px;
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50px;
+    border: none;
+    background-color: #13c250;
+}
+#goto>a{
+    color: black;
+    text-decoration: none;
+}
+#goto:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* -----------------------------------------------------------------home2 completed--------------------------------------- */
+
+.footer{
+    height: 75.5vh;
+    width: 100%;
+    background-color: black;
+    border: 1px solid;
+}
+.container{
+    height: 58%;
+    width: 75%;
+    margin-left: 186px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.container1{
+    height: 100%;
+    width: 69%;
+    border: 1px solid;
+}
+.lnavbar{
+    height: 15%;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 100%;
+    width: 25%;
+}
+.logo>a>svg{
+    height: 130px;
+    width: 130px;
+    fill: white;
+}
+.comp{
+    height: 100%;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: #919496;
+}
+.commu{
+    height: 100%;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: #919496;
+}
+.use{
+    height: 100%;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: #919496;
+}
+.indetail{
+    height: 85%;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+.empty{
+    height: 100%;
+    width: 25%;
+}
+.aboutcom{
+    height: 100%;
+    width: 25%;
+}
+.aboutcom>p>a{
+    text-decoration: none;
+    line-height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+}
+.aboutcom>p>a:hover{
+    color: rgb(75, 239, 75);
+}
+.commudetails{
+    height: 100%;
+    width: 25%;
+}
+.commudetails>p>a{
+    text-decoration: none;
+    line-height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+}
+.commudetails>p>a:hover{
+    color: rgb(75, 239, 75);
+}
+.linkdetails{
+    height: 100%;
+    width: 25%;
+}
+.linkdetails>p>a{
+    text-decoration: none;
+    line-height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+}
+.linkdetails>p>a:hover{
+    color: rgb(75, 239, 75);
+}
+
+/* -----------------------------------------------------icons container2 CSS---------------------------------------------------------- */
+
+.container2{
+    height: 100%;
+    width: 17%;
+    padding-top: 15px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.icon1{
+    height: 55px;
+    width: 55px;
+    background-color: #222326;
+    border-radius: 50px;
+}
+.fa-instagram{
+    font-size: 27px;
+    padding-left: 14.5px;
+    padding-top: 14px;
+    color:white;
+}
+.fa-instagram:hover{
+    color: rgb(75, 239, 75);
+}
+.icon2{
+    height: 55px;
+    width: 55px;
+    background-color: #222326;
+    border-radius: 50px;
+}
+.fa-twitter{
+    font-size: 23px;
+    padding-left: 16px;
+    padding-top: 17px;
+    color:white;
+}
+.fa-twitter:hover{
+    color: rgb(75, 239, 75);
+}
+.icon3{
+    height: 55px;
+    width: 55px;
+    background-color: #222326;
+    border-radius: 50px;
+}
+.fa-facebook-f{
+    font-size: 23px;
+    padding-left: 19px;
+    padding-top: 17px;
+    color:white;
+}
+.fa-facebook-f:hover{
+    color: rgb(75, 239, 75);
+}
+
+/* -----------------------------------------------------icons Done CSS---------------------------------------------------------- */
+
+.globe{
+    height: 15px;
+    width: 75%;
+    border: 1px solid;
+    margin-left: 186px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.fa-earth-africa{
+    font-size: 11px;
+    color: #989eb1;
+    margin-right: 7px;
+}
+.usa>a{
+    font-size: 12px;
+    color: #989eb1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.usa>a:hover{
+    color: rgb(75, 239, 75);
+}
+
+/* <-- ----------------------------------------------globe CSS__--------------------------------------------------------- --> */
+
+.cookie{
+    height: 45px;
+    width: 58%;
+    border: 1px solid;
+    margin-left: 60px;
+    margin-top: 15px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.cookiesname{
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -1px;
+}
+.cookiesname>a{
+    color: #636567;
+    text-decoration: none;
+}
+.cookiesname>a:hover{
+    color: rgb(75, 239, 75);
+}
+.Cookiesicon{
+    height: 30%;
+    width: 3%;
+    background-color:#06f;
+    border: 1px solid;
+    border-radius: 50px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left:2px;
+}
+.tick{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    color: #06f;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:3px;
+    border-radius: 10px;
+    margin-left: 2px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.wrong{
+    height: 100%;
+    width: 50%;
+    color: white;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:3px;
+    border-radius: 20px;
+    margin-right: 2px;
+}
+.sp{
+    height: -35px;
+    width: 8%;
+    display: flex;
+    justify-content:end;
+    align-items:center;
+    color: #989eb1; 
+    font-size: 12px;
+    text-align: end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -1px;
+    letter-spacing: -0.8px;
+    margin-left: 1205px;
+    margin-top:-30px;
+} 
+
+/* -----------------------------------------------------footer CSS ----------------------------------------------- */

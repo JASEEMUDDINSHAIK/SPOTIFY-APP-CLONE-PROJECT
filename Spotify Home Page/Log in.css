@@ -1,0 +1,419 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+#navbar>section{
+    height: 100%;
+    width: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 55%;
+    width: 68%;
+    padding-top: 5px;   
+}
+#logo>a>#firstlogo{
+    fill: white;
+}
+
+/* ---------------------------------------------------------navbar completed---------------------------------------------- */
+
+#homecontents{
+    height: 150vh;
+    width: 100%;
+    background: linear-gradient(rgb(31, 29, 29),black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contain{
+    height: 94%;
+    width: 48.5%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+#onemore{
+    height: 100%;
+    width: 72.5%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+#into{
+    height: 32%;
+    width: 61.5%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#into>h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    word-spacing: -8px;
+    letter-spacing: -1px;
+    color: white;
+}
+#gfae{
+    height: 69%;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#google{
+    height: 23%;
+    width: 100%;
+    border: 1px solid rgb(100, 99, 99);
+    border-radius: 50px;
+    display: flex;
+}
+#google:hover{
+    border: 1px solid white;
+}
+#ggicon{
+    height: 100%;
+    width: 20%;
+    border-radius: 50px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ggicon>a>img{
+    height: 35%;
+    width: 35%;
+    margin-left: 20px;
+}
+#ggtext{
+    height: 100%;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 35px;
+    word-spacing: -2px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* --------------------------------google-------------------------------- */
+
+#fb{
+    height: 23%;
+    width: 100%;
+    border: 1px solid rgb(100, 99, 99);
+    border-radius: 50px;
+    display: flex;
+}
+#fb:hover{
+    border: 1px solid white;
+}
+#fbicon{
+    height: 100%;
+    width: 20%;
+    border-radius: 50px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fbicon>a>img{
+    height: 35%;
+    width: 35%;
+    margin-left: 20px;
+}
+#fbtext{
+    height: 100%;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 35px;
+    word-spacing: -2px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* ----------------------------------------------------facebook----------------------------------------------- */
+
+#apple{
+    height: 23%;
+    width: 100%;
+    border: 1px solid rgb(100, 99, 99);
+    border-radius: 50px;
+    display: flex;
+}
+#apple:hover{
+    border: 1px solid white;
+}
+#apicon{
+    height: 100%;
+    width: 20%;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#apicon>a>img{
+    height: 35%;
+    width: 35%;
+    margin-left: 20px;
+}
+#aptext{
+    height: 100%;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 35px;
+    word-spacing: -2px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* -----------------------------------------------------apple-------------------------------------------------- */
+
+#empty{
+    height: 23%;
+    width: 100%;
+    border: 1px solid rgb(100, 99, 99);
+    border-radius: 50px;
+    display: flex;
+}
+#empty:hover{
+    border: 1px solid white;
+}
+#notext{
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -2px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#notext>h3>a{
+    text-decoration: none;
+    color: white;
+    cursor: auto;
+}
+
+/* ---------------------------------------noicon--------------------------------------------- */
+
+#dash1{
+    height: 6.5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dash11{
+    height: 0.8px;
+    width: 100%;
+    background-color: rgb(102, 97, 97);
+}
+
+/* ------------------------------------------------------dash1 completed-------------------------------------------- */
+
+#forms{
+    height: 33.3%;
+    width: 61%;
+}
+#form1{
+    height: 26%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    color: white;
+}
+#form1>#username{
+    height: 58%;
+    width: 100%;
+    padding-left: 13px;
+    border-radius: 5px;
+    background-color: rgb(28, 25, 25);
+    border: 1px solid rgb(100, 99, 99);
+    color: white;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+#username{
+    margin-top: 10px;
+}
+#form1>#username:hover{
+    border: 1px solid white;
+}
+#form2{
+    height: 26%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    color: white;
+}
+#form2>#password{
+    height: 58%;
+    width: 100%;
+    padding-left: 13px;
+    border-radius: 5px;
+    background-color: rgb(28, 25, 25);
+    color: white;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    border: 1px solid rgb(100, 99, 99);
+}
+#password{
+    margin-top: 10px;
+}
+#form2>#password:hover{
+    border: 1px solid white;
+}
+#form2>svg{
+    background-color: yellow;
+}
+
+/* ----------------------------------------------------username and password completed-------------------------------------- */
+
+#remember{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.rad{
+    height: 55%;
+    width: 10%;
+    margin-top: 2px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.rad:hover{
+    color: white;
+    transform: scale(1.04);
+    border: 3px solid rgb(153, 153, 153);
+}
+#me{
+    margin-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -1px;
+    font-size: 12px;
+    font-weight: bolder;
+    color: white;
+}
+button{
+    margin-top: 30px;
+    height: 13.5%;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    background-color: #0bf15c;
+}
+button>a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+#forgot{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+    word-spacing: -1px;
+    letter-spacing: -1px;
+}
+#forgot>a{
+    color: white;
+}
+
+/* ------------------------------------------------credentials completed--------------------------------------------- */
+
+#dash2{
+    height: 6.5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dash22{
+    height: 0.8px;
+    width: 100%;
+    background-color: rgb(102, 97, 97);
+}
+
+/* -------------------------------------------------dash2 completed--------------------------------------------- */
+
+#dont{
+    height: 4.5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#dont>p{
+    font-size: 13px;
+    word-spacing: -2px;
+    font-weight: bolder;
+    color: #a7a7a7;
+}
+#dont>a{
+    color: white;
+    padding-left: 5px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+/* -------------------------------------------sign up spotify completed-------------------------------------------- */
+
+#recaptcha{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -0.7px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
+    color: #a7a7a7;
+}
+#recaptcha>a{
+    color: #a7a7a7;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+/* ------------------------------------------------recaptcha completed-------------------------------------------------- */
+
+
+/* -------------------------------------------------log in completed------------------------------------- */

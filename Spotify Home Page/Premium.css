@@ -1,0 +1,1705 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navBar{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+section>article{
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
+.Logo{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.Logo>a{
+    height: 100%;
+    width: 25%;
+    margin-top: 35px;
+}
+.Logo>a>svg{
+    height: 52%;
+    fill: white;
+    margin-left: 40px;
+}
+.Menu{
+    height: 100%;
+    width: 50%;
+}
+.Menu>ol{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Menu>ol>li>a{
+    font-size: 15px; 
+    font-weight: bolder;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.Menu>ol>li>.a:hover{
+    color: rgb(7, 204, 7);
+}
+
+/* ---------------------------------------Nav CSS ------------------------------ */
+
+#home{
+    height: 71vh;
+    width: 100%;
+    background: linear-gradient(to top right,black,black,rgb(0, 0, 0),black,rgb(59, 58, 58),rgb(108, 108, 108),rgb(111, 108, 108));
+    display: flex;
+    justify-content: space-between;
+}
+#hometext{
+    height: 61.5%;
+    width: 37.5%;
+    margin-top: 5%;
+    margin-left: 12.5%;
+    padding-left: 13px;
+}
+#hometext>h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 39px;
+    word-spacing: -3px;
+    line-height: 45px;
+}
+#hometext>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 22px;
+    word-spacing: -3px;
+    line-height: 33px;
+    padding-top: 12px;
+}
+#button1{
+    height: 48.5px;
+    width: 210px;
+    background-color: rgb(243, 196, 204);
+    margin-top: 33px;
+    border-radius: 50px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    word-spacing: -2.5px;
+    font-size: 13.7px;
+}
+#button1>a{
+    text-decoration: none;
+    color: black;
+}
+#button1:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    background-color: white;
+}
+#button2{
+    height: 48.5px;
+    width: 237px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    word-spacing: -2px;
+    font-size: 14px;
+    margin-left: 9px;
+    letter-spacing: -0.5px;
+}
+#button2>a{
+    text-decoration: none;
+    color: white;
+}
+#button2:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+#hometext>#terms{
+    margin-top: 35px;
+    font-size: 10.7px;
+    line-height: 15px;
+    word-spacing: -0.4px;
+    letter-spacing: -0.4px;
+}
+#terms>a{
+    color: white;
+}
+#deskimg{
+    height: 80%;
+    width: 50%;
+    background-image: url(./desktop-album-evergreen-1x.png);
+}
+
+/* ----------------------------------------------------------------home CSS------------------------------------------------ */
+
+#home1{
+    height: 18.5vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+#home1>h1{
+    padding-top: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    word-spacing: -7px;
+    letter-spacing: -1.5px;
+}
+#home1>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;word-spacing: -2px;
+    padding-top: 2px;
+    line-height: 35px;
+    word-spacing: -3px;
+}
+
+/* --------------------------------------------------------------------home1 CSS----------------------------------------------- */
+
+#home2{
+    height: 83.5vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    height: 90%;
+    width: 29%;
+}
+#boxtop{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#boxtop1{
+    height: 100%;
+    width: 230px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    word-spacing: -2px;
+    letter-spacing: -0.5px;
+    padding-top: 78px;
+    padding-left: 10px;
+    border-bottom:1px solid white;
+}
+#boxtop2{
+    height: 100%;
+    width: 139px;
+    background-color: white;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-top: 30px;
+    line-height: 20px;
+    border-bottom:1px solid white;
+}
+#boxtop3{
+    height: 100%;
+    width: 142px;
+    background-color: #ad2489;
+    color: white;
+    font-size: 14.2px;
+    padding-left: 15px;
+    padding-top: 22px;
+    line-height: 20px;
+    border-bottom:1px solid white;
+}
+#boxbottom{
+    height: 80%;
+    width: 100%;
+    margin-top: 111px;
+    border-top:1px solid white;
+}
+#boxbottom1{
+    height: 16%;
+    width: 100%;
+    display: flex;
+    justify-content: row;
+}
+#listening{
+    height: 100%;
+    width: 220px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -2px;
+    padding-top: 20px;
+    text-decoration: underline 1.15px dashed #b4b7c3;
+    font-weight: normal;
+    color: white;
+    margin-left: -430px;
+    border-bottom: 1px solid white;
+}
+#dash1{
+    height: 100%;
+    width: 87px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+#dash11{
+    height: 4px;
+    width: 25px;
+    background-color: #b4b7c3;
+}
+#markcircle1{
+    height: 100%;
+    width: 125px;
+    background:linear-gradient(rgb(173, 36, 137), rgb(40, 70, 117));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ad2489;
+    border-bottom: 1px solid white;
+}
+#markcircle11{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-check{
+    font-size: 20px;
+}
+
+/* --------------------------------------------------------------boxbottom1 completed----------------------------------------------- */
+
+#boxbottom2{
+    height: 18%;
+    width: 100%;
+    display: flex;
+    justify-content: row;
+}
+#offline{
+    height: 100%;
+    width: 220px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -2px;
+    padding-top: 20px;
+    text-decoration: underline 1.15px dashed #b4b7c3;
+    font-weight: normal;
+    color: white;
+    margin-left: -430px;
+    border-bottom: 1px solid white;
+}
+#dash2{
+    height: 100%;
+    width: 87px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+#dash22{
+    height: 4px;
+    width: 25px;
+    background-color: #b4b7c3;
+}
+#markcircle2{
+    height: 100%;
+    width: 125px;
+    background:linear-gradient(rgb(117, 27, 93), rgb(40, 70, 117));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ad2489;
+    border-bottom: 1px solid white;
+}
+#markcircle22{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-check{
+    font-size: 20px;
+}
+
+/* -------------------------------------------------------------------boxbottom2 completed-------------------------------------------- */
+
+#boxbottom3{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: row;
+}
+#order{
+    height: 100%;
+    width: 220px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -2px;
+    padding-top: 20px;
+    text-decoration: underline 1.15px dashed #b4b7c3;
+    font-weight: normal;
+    color: white;
+    margin-left: -430px;
+    border-bottom: 1px solid white;
+}
+#dash3{
+    height: 100%;
+    width: 87px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+#dash33{
+    height: 4px;
+    width: 25px;
+    background-color: #b4b7c3;
+}
+#markcircle3{
+    height: 100%;
+    width: 125px;
+    background:linear-gradient(#966087, rgb(40, 70, 117));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ad2489;
+    border-bottom: 1px solid white;
+}
+#markcircle33{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-check{
+    font-size: 20px;
+}
+
+/* ----------------------------------------------------------------boxbottom3 completed------------------------------------------ */
+
+#boxbottom4{
+    height: 17%;
+    width: 100%;
+    display: flex;
+    justify-content: row;
+}
+#audio{
+    height: 100%;
+    width: 220px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -2px;
+    padding-top: 20px;
+    text-decoration: underline 1.15px dashed #b4b7c3;
+    font-weight: normal;
+    color: white;
+    margin-left: -430px;
+    border-bottom: 1px solid white;
+}
+#dash4{
+    height: 100%;
+    width: 87px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+#dash44{
+    height: 4px;
+    width: 25px;
+    background-color: #b4b7c3;
+}
+#markcircle4{
+    height: 100%;
+    width: 125px;
+    background:linear-gradient(rgb(27, 71, 142), rgb(40, 70, 117));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ad2489;
+    border-bottom: 1px solid white;
+}
+#markcircle44{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-check{
+    font-size: 20px;
+}
+
+/* ----------------------------------------------------------------boxbottom4 completed----------------------------------------------- */
+
+#boxbottom5{
+    height: 17%;
+    width: 100%;
+    display: flex;
+    justify-content: row;
+}
+#realtime{
+    height: 100%;
+    width: 220px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -2px;
+    padding-top: 20px;
+    text-decoration: underline 1.15px dashed #b4b7c3;
+    font-weight: normal;
+    color: white;
+    margin-left: -430px;
+    border-bottom: 1px solid white;
+}
+#dash5{
+    height: 100%;
+    width: 87px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+#dash55{
+    height: 4px;
+    width: 25px;
+    background-color: #b4b7c3;
+}
+#markcircle5{
+    height: 100%;
+    width: 125px;
+    background:linear-gradient(rgb(40, 70, 117), rgb(40, 70, 117));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ad2489;
+    border-bottom: 1px solid white;
+}
+#markcircle55{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-check{
+    font-size: 20px;
+}
+
+/* ---------------------------------------------------------------boxbottom5 completed------------------------------------------------- */
+
+#boxbottom6{
+    height: 17%;
+    width: 100%;
+    display: flex;
+    justify-content: row;
+}
+#organize{
+    height: 100%;
+    width: 220px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -2px;
+    padding-top: 20px;
+    text-decoration: underline 1.15px dashed #b4b7c3;
+    font-weight: normal;
+    color: white;
+    margin-left: -430px;
+    border-bottom: 1px solid white;
+}
+#dash6{
+    height: 100%;
+    width: 87px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+#dash66{
+    height: 4px;
+    width: 25px;
+    background-color: #b4b7c3;
+}
+#markcircle6{
+    height: 100%;
+    width: 125px;
+    background:linear-gradient(rgb(40, 70, 117), rgb(40, 70, 117));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ad2489;
+    border-bottom: 1px solid white;
+}
+#markcircle66{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-check{
+    font-size: 20px;
+}
+
+/* -----------------------------------------------------boxbottom6 completed-------------------------------------------------- */
+/* --------------------------------------------------------home2 completed-------------------------------------------------------- */
+
+#additional{
+    height: 13.5vh;
+    width: 100%;
+    background-color: black;
+}
+
+/* -------------------------------------------------------additional space-------------------------------------------------------- */
+/* ---------------------------------------------------------home3 begin------------------------------------------------------------- */
+
+#home3{
+    height: 220vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ----------------------------------------------------------cardscode begin------------------------------------------------------------ */
+
+#cardscontainer{
+    height: 10%;
+    width: 74%;
+    text-align: center;
+}
+#cardstext{
+    height: 60%;
+    width: 100%;
+    color: white;
+}
+#cardstext>h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 33px;
+    word-spacing: -7px;
+    letter-spacing: -1px;
+    padding-top: 25px;
+}
+#cardstext>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -0.5px;
+    letter-spacing: -1px;
+    padding-top: 10px;
+}
+
+/* -------------------------------------------------------------cards text completed---------------------------------------------- */
+
+#cards{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+/* -------------------------------------------------------------card1 begin ------------------------------------------------ */
+
+#card1{
+    height: 50%;
+    width: 3.5%;
+    background-color: white;
+    border-radius: 10px;
+}
+#card1>img{
+    height: 23px;
+    margin-top: 5px;
+}
+
+/* --------------------------------------------------------------card1 completed------------------------------------------------ */
+
+#card2{
+    height: 50%;
+    width: 3.5%;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+#card2>img{
+    height: 23px;
+    margin-top: 5px;
+}
+
+/* --------------------------------------------------------------card2 completed------------------------------------------------ */
+
+#card3{
+    height: 50%;
+    width: 3.5%;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+#card3>img{
+    height: 23px;
+    margin-top: 5px;
+}
+
+/* --------------------------------------------------------------card3 completed------------------------------------------------ */
+
+#card4{
+    height: 50%;
+    width: 3.5%;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+#card4>img{
+    height: 23px;
+    margin-top: 5px;
+}
+
+/* --------------------------------------------------------------card4 completed------------------------------------------------ */
+
+#card5{
+    height: 50%;
+    width: 3.5%;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+#card5>img{
+    height: 17px;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+/* --------------------------------------------------------------card5 completed------------------------------------------------ */
+
+/* --------------------------------------------------------------planstext begin----------------------------------------------- */
+
+#planstext{
+    height: 14.6%;
+    width: 74%;
+    border-top: 5px solid rgb(214, 51, 209);
+    border-left: 5px solid rgb(246, 8, 246);
+    border-bottom:5px solid #194fab;
+    border-right: 5px solid #0b23f4;
+    border-style: groove;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+#textinclude{
+    height: 100%;
+    width: 23%;
+    border: 1px solid black;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#textinclude>h3{
+    word-spacing: -2px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 17px;
+}
+#textinclude>p{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+/* ------------------------------------------------------------plantext completed---------------------------------------------- */
+
+#allplans{
+    height: 31.5%;
+    width: 74%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#premindividual{
+    height: 100%;
+    width: 31.5%;
+    border:5px solid rgb(255, 210, 215) ;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fam1{
+    height: 97%;
+    width: 92%;
+}
+#freefor1{
+    height: 10%;
+    width: 100%;
+}
+#month1{
+    height: 32px;
+    width: 140px;
+    font-size: 15px;
+    background-color: rgb(255, 210, 215);
+    color: black;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+#pf1{
+    height: 15%;
+    width: 100%;
+    color: white;
+}
+#pf1>#premiumfamily{
+    font-size: 18px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#for1month>h4{
+    font-size: 16px;
+    text-align: end;
+    padding-top: 5px;
+}
+#for1month>p{
+    padding-top: 5px;
+    font-size: 10px;
+    text-align: end;
+}
+#pftext1{
+    height: 43%;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 14px;
+    word-spacing: -2px;
+    color: white;
+}
+#pftext1>ul{
+    display: block;
+    list-style: disc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+}
+#pfbutton1{
+    height: 32%;
+    width: 100%;
+    color: white;
+}
+#abc1{
+    height: 45px;
+    width: 100%;
+    margin-top: 19px;
+    border-radius: 50px;
+    border: none; 
+    background-color: rgb(255, 210, 215);
+}
+#abc1:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+#abc1>a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+#pfbutton1>p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding-top: 15px;
+}
+#pfbutton1>p>a{
+    color: white;
+}
+
+/* --------------------------------------------------------plans1 completed------------------------------------------------------- */
+
+#premduo{
+    height: 100%;
+    width: 31.5%;
+    border:5px solid rgb(255, 200, 98);
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fam2{
+    height: 97%;
+    width: 92%;
+}
+#freefor2{
+    height: 10%;
+    width: 100%;
+}
+#month2{
+    height: 32px;
+    width: 140px;
+    font-size: 15px;
+    background-color: rgb(255, 200, 98);
+    color: black;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+#pf2{
+    height: 15%;
+    width: 100%;
+    color: white;
+}
+#pf2>#premiumfamily{
+    font-size: 18px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#for2month>h4{
+    font-size: 16px;
+    text-align: end;
+    padding-top: 5px;
+}
+#for2month>p{
+    padding-top: 5px;
+    font-size: 10px;
+    text-align: end;
+}
+#pftext2{
+    height: 43%;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 14px;
+    word-spacing: -2px;
+    color: white;
+}
+#pftext2>ul{
+    display: block;
+    list-style: disc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+}
+#pfbutton2{
+    height: 32%;
+    width: 100%;
+    color: white;
+}
+#abc2{
+    height: 45px;
+    width: 100%;
+    margin-top: 19px;
+    border-radius: 50px;
+    border: none; 
+    background-color: rgb(255, 200, 98);
+}
+#abc2:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+#abc2>a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+#pfbutton2>p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding-top: 15px;
+}
+#pfbutton2>p>a{
+    color: white;
+}
+
+/* ---------------------------------------------------------plans2 completed------------------------------------------- */
+
+#premfamily{
+    height: 100%;
+    width: 31.5%;
+    border:5px solid rgb(165, 187, 209) ;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fam3{
+    height: 97%;
+    width: 92%;
+    
+}
+#freefor3{
+    height: 10%;
+    width: 100%;
+}
+#month3{
+    height: 32px;
+    width: 140px;
+    font-size: 15px;
+    background-color: rgb(165, 187, 209);
+    color: black;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+#pf3{
+    height: 15%;
+    width: 100%;
+    color: white;
+}
+#pf3>#premiumfamily{
+    font-size: 18px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#for3month>h4{
+    font-size: 16px;
+    text-align: end;
+    padding-top: 5px;
+}
+#for3month>p{
+    padding-top: 5px;
+    font-size: 10px;
+    text-align: end;
+}
+#pftext3{
+    height: 43%;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 14px;
+    word-spacing: -2px;
+    color: white;
+}
+#pftext3>ul{
+    display: block;
+    list-style: disc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+}
+#pfbutton3{
+    height: 32%;
+    width: 100%;
+    color: white;
+}
+#abc3{
+    height: 45px;
+    width: 100%;
+    margin-top: 19px;
+    border-radius: 50px;
+    border: none; 
+    background-color: rgb(165, 187, 209);
+}
+#abc3:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+#abc3>a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+#pfbutton3>p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding-top: 15px;
+}
+#pfbutton3>p>a{
+    color: white;
+}
+
+/* ----------------------------------------------------------------plans3 completed---------------------------------------- */
+
+#afterallplans{
+    height: 26.6%;
+    width: 74%;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------------------------------------------------------lastplan begin----------------------------------------------- */
+
+#lastplan{
+    height: 100%;
+    width: 31.5%;
+    border:5px solid rgb(196, 177, 212);
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fam4{
+    height: 97%;
+    width: 92%;
+}
+#freefor4{
+    height: 10%;
+    width: 100%;
+}
+#month4{
+    height: 32px;
+    width: 140px;
+    font-size: 15px;
+    background-color: rgb(196, 177, 212);
+    color: black;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+#pf4{
+    height: 15%;
+    width: 100%;
+    color: white;
+}
+#pf4>#premiumfamily{
+    font-size: 18px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#for4month>h4{
+    font-size: 16px;
+    text-align: end;
+    padding-top: 5px;
+}
+#for4month>p{
+    padding-top: 5px;
+    font-size: 10px;
+    text-align: end;
+}
+#pftext4{
+    height: 38%;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 14px;
+    word-spacing: -2px;
+    color: white;
+}
+#pftext4>ul{
+    display: block;
+    list-style: disc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+}
+#pfbutton4{
+    height: 32%;
+    width: 100%;
+    color: white;
+}
+#abc4{
+    height: 45px;
+    width: 100%;
+    margin-top: 19px;
+    border-radius: 50px;
+    border: none; 
+    background-color: rgb(196, 177, 212);
+}
+#abc4:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+#abc4>a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+#pfbutton4>p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding-top: 15px;
+}
+#pfbutton4>p>a{
+    color: white;
+}
+
+/* -----------------------------------------------------lastplan completed-------------------------------------------------------- */
+
+/* --------------------------------------------------------home3 completed-------------------------------------------------------- */
+
+#home4{
+    height: 17vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+#home4>h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    letter-spacing: -1px;
+}
+#home4>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 1px;
+    padding-top: 22px;
+}
+#home4>p>a{
+    color: white;
+}
+
+/* -----------------------------------------------------home4 completed--------------------------------------------------- */
+
+#question{
+    height: 74vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#questions{
+    height: 90%;
+    width: 77%;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------------------------------------------questions start------------------------------------------- */
+
+#question1{
+    height: 12.5%;
+    width: 100%;
+    border-bottom: 1px solid rgb(61, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-left: 12px;
+}
+#question1>h2{
+    transform: rotate(90deg);
+    padding-top: 25px;
+    text-decoration: none;
+}
+#question1:hover{
+    background-color: rgb(50, 44, 44);
+}
+#question1>#one:hover{
+    text-decoration: underline solid white;
+}
+
+/* ----------------------------------------------------------question1 completed-------------------------------------------- */
+
+#question2{
+    height: 12.5%;
+    width: 100%;
+    border-bottom: 1px solid rgb(61, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-left: 12px;
+}
+#question2>h2{
+    transform: rotate(90deg);
+    padding-top: 25px;
+    text-decoration: none;
+}
+#question2:hover{
+    background-color: rgb(50, 44, 44);
+}
+#question2>#two:hover{
+    text-decoration: underline solid white;
+}
+
+/* ----------------------------------------------------------question2 completed-------------------------------------------- */
+
+#question3{
+    height: 12.5%;
+    width: 100%;
+    border-bottom: 1px solid rgb(61, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-left: 12px;
+}
+#question3>h2{
+    transform: rotate(90deg);
+    padding-top: 25px;
+    text-decoration: none;
+}
+#question3:hover{
+    background-color: rgb(50, 44, 44);
+}
+#question3>#three:hover{
+    text-decoration: underline solid white;
+} 
+
+/* ----------------------------------------------------------question3 completed-------------------------------------------- */
+
+#question4{
+    height: 12.5%;
+    width: 100%;
+    border-bottom: 1px solid rgb(61, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-left: 12px;
+}
+#question4>h2{
+    transform: rotate(90deg);
+    padding-top: 25px;
+    text-decoration: none;
+}
+#question4:hover{
+    background-color: rgb(50, 44, 44);
+}
+#question4>#four:hover{
+    text-decoration: underline solid white;
+} 
+
+/* ----------------------------------------------------------question4 completed-------------------------------------------- */
+
+#question5{
+    height: 12.5%;
+    width: 100%;
+    border-bottom: 1px solid rgb(61, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-left: 12px;
+}
+#question5>h2{
+    transform: rotate(90deg);
+    padding-top: 25px;
+    text-decoration: none;
+}
+#question5:hover{
+    background-color: rgb(50, 44, 44);
+}
+#question5>#five:hover{
+    text-decoration: underline solid white;
+} 
+
+/* ----------------------------------------------------------question5 completed-------------------------------------------- */
+
+#question6{
+    height: 12.5%;
+    width: 100%;
+    border-bottom: 1px solid rgb(61, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-left: 12px;
+}
+#question6>h2{
+    transform: rotate(90deg);
+    padding-top: 25px;
+    text-decoration: none;
+}
+#question6:hover{
+    background-color: rgb(50, 44, 44);
+}
+#question6>#six:hover{
+    text-decoration: underline solid white;
+} 
+
+/* ----------------------------------------------------------question6 completed-------------------------------------------- */
+
+#question7{
+    height: 12.5%;
+    width: 100%;
+    border-bottom: 1px solid rgb(61, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-left: 12px;
+}
+#question7>h2{
+    transform: rotate(90deg);
+    padding-top: 25px;
+    text-decoration: none;
+}
+#question7:hover{
+    background-color: rgb(50, 44, 44);
+}
+#question7>#seven:hover{
+    text-decoration: underline solid white;
+} 
+
+/* ----------------------------------------------------------question7 completed-------------------------------------------- */
+
+#question8{
+    height: 12.5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-left: 12px;
+}
+#question8>h2{
+    transform: rotate(90deg);
+    padding-top: 25px;
+    text-decoration: none;
+}
+#question8:hover{
+    background-color: rgb(50, 44, 44);
+}
+#question8>#eight:hover{
+    text-decoration: underline solid white;
+}
+
+/* ----------------------------------------------------------question8 completed-------------------------------------------- */
+
+/* ------------------------------------------------------------home5 completed-------------------------------------------------- */
+
+.footer{
+    height: 75.5vh;
+    width: 100%;
+    background-color: black;
+    border: 1px solid;
+}
+.container{
+    height: 58%;
+    width: 75%;
+    margin-left: 186px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.container1{
+    height: 100%;
+    width: 69%;
+    border: 1px solid;
+}
+.lnavbar{
+    height: 15%;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 100%;
+    width: 25%;
+}
+.logo>a>svg{
+    height: 130px;
+    width: 130px;
+    fill: white;
+}
+.comp{
+    height: 100%;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: #919496;
+}
+.commu{
+    height: 100%;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: #919496;
+}
+.use{
+    height: 100%;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: #919496;
+}
+.indetail{
+    height: 85%;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+.empty{
+    height: 100%;
+    width: 25%;
+}
+.aboutcom{
+    height: 100%;
+    width: 25%;
+}
+.aboutcom>p>a{
+    text-decoration: none;
+    line-height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+}
+.aboutcom>p>a:hover{
+    color: rgb(75, 239, 75);
+}
+.commudetails{
+    height: 100%;
+    width: 25%;
+}
+.commudetails>p>a{
+    text-decoration: none;
+    line-height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+}
+.commudetails>p>a:hover{
+    color: rgb(75, 239, 75);
+}
+.linkdetails{
+    height: 100%;
+    width: 25%;
+}
+.linkdetails>p>a{
+    text-decoration: none;
+    line-height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+}
+.linkdetails>p>a:hover{
+    color: rgb(75, 239, 75);
+}
+
+/* -----------------------------------------------------icons container2 CSS---------------------------------------------------------- */
+
+.container2{
+    height: 100%;
+    width: 17%;
+    padding-top: 15px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.icon1{
+    height: 55px;
+    width: 55px;
+    background-color: #222326;
+    border-radius: 50px;
+}
+.fa-instagram{
+    font-size: 27px;
+    padding-left: 14.5px;
+    padding-top: 14px;
+    color:white;
+}
+.fa-instagram:hover{
+    color: rgb(75, 239, 75);
+}
+.icon2{
+    height: 55px;
+    width: 55px;
+    background-color: #222326;
+    border-radius: 50px;
+}
+.fa-twitter{
+    font-size: 23px;
+    padding-left: 16px;
+    padding-top: 17px;
+    color:white;
+}
+.fa-twitter:hover{
+    color: rgb(75, 239, 75);
+}
+.icon3{
+    height: 55px;
+    width: 55px;
+    background-color: #222326;
+    border-radius: 50px;
+}
+.fa-facebook-f{
+    font-size: 23px;
+    padding-left: 19px;
+    padding-top: 17px;
+    color:white;
+}
+.fa-facebook-f:hover{
+    color: rgb(75, 239, 75);
+}
+
+/* -----------------------------------------------------icons Done CSS---------------------------------------------------------- */
+
+.globe{
+    height: 15px;
+    width: 75%;
+    border: 1px solid;
+    margin-left: 186px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.fa-earth-africa{
+    font-size: 11px;
+    color: #989eb1;
+    margin-right: 7px;
+}
+.usa>a{
+    font-size: 12px;
+    color: #989eb1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.usa>a:hover{
+    color: rgb(75, 239, 75);
+}
+
+/* <-- ----------------------------------------------globe CSS__--------------------------------------------------------- --> */
+
+.cookie{
+    height: 45px;
+    width: 58%;
+    border: 1px solid;
+    margin-left: 60px;
+    margin-top: 15px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.cookiesname{
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -1px;
+}
+.cookiesname>a{
+    color: #636567;
+    text-decoration: none;
+}
+.cookiesname>a:hover{
+    color: rgb(75, 239, 75);
+}
+.Cookiesicon{
+    height: 28%;
+    width: 2.9%;
+    background-color:#06f;
+    border: 1px solid;
+    border-radius: 50px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left:2px;
+}
+.tick1{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    color: #06f;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:3px;
+    border-radius: 10px;
+    margin-left: 2px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.tick1>.fa-check{
+    font-size: 8px;
+}
+.wrong{
+    height: 100%;
+    width: 50%;
+    color: white;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:3px;
+    border-radius: 20px;
+    margin-right: 2px;
+}
+.sp{
+    height: -35px;
+    width: 8%;
+    display: flex;
+    justify-content:end;
+    align-items:center;
+    color: #989eb1; 
+    font-size: 12px;
+    text-align: end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: -1px;
+    letter-spacing: -0.8px;
+    margin-left: 1205px;
+    margin-top:-30px;
+} 
+
+/* -----------------------------------------------------footer CSS ----------------------------------------------- */

@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+#navbar>section{
+    height: 100%;
+    width: 10.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 50%;
+    width: 68%;
+    padding-top: 5px;   
+}
+#logo>a>#firstlogo{
+    fill: white;
+}
+
+/* ---------------------------------------------------------navbar completed---------------------------------------------- */
+
+#home{
+    height: 89.3vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#homecontents{
+    height: 100%;
+    width: 21.3%;
+}
+#homecontents>h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    word-spacing: -7px;
+    letter-spacing: -1px;
+    padding-top: 20px;
+    color: white;
+}
+form{
+    height: 13%;
+    width: 100%;
+    margin-top: 44px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    color: white;
+}
+form>input{
+    height: 58%;
+    width: 100%;
+    margin-top: 12px;
+    padding-left: 13px;
+    border-radius: 5px;
+    background-color: black;
+    border: 1px solid rgb(100, 99, 99);
+    color: white;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+form>input:hover{
+    border: 1px solid white;
+}
+button{
+    height: 7.2%;
+    width: 100%;
+    margin-top: 9px;
+    border-radius: 50px;
+    border: none;
+    background-color: #1ed760;
+}
+button>a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+button:hover{
+    cursor: pointer;
+}
+#dashor{
+    height: 7%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+}
+#dash1{
+    height: 1%;
+    width: 45%;
+    background-color: rgb(100, 99, 99);
+}
+#or{
+    height: 100%;
+    width: 10%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#dash2{
+    height: 1%;
+    width: 45%;
+    background-color: rgb(100, 99, 99);
+}
+#gandf{
+    height: 17%;
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#google{
+    height: 46%;
+    width: 100%;
+    border: 1px solid rgb(100, 99, 99);
+    border-radius: 50px;
+    display: flex;
+}
+#google:hover{
+    border: 1px solid white;
+}
+#ggicon{
+    height: 100%;
+    width: 20%;
+    border-radius: 50px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ggicon>a>img{
+    height: 35%;
+    width: 35%;
+    margin-left: 20px;
+}
+#ggtext{
+    height: 100%;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 35px;
+    word-spacing: -2px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#fb{
+    height: 46%;
+    width: 100%;
+    border: 1px solid rgb(100, 99, 99);
+    border-radius: 50px;
+    display: flex;
+}
+#fb:hover{
+    border: 1px solid white;
+}
+#fbicon{
+    height: 100%;
+    width: 20%;
+    border-radius: 50px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fbicon>a>img{
+    height: 35%;
+    width: 35%;
+    margin-left: 20px;
+}
+#fbtext{
+    height: 100%;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 35px;
+    word-spacing: -2px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#line{
+    height: 0.5px;
+    width: 100%;
+    background-color: rgb(100, 99, 99);
+    margin-top: 30px;
+}
+#already{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    word-spacing: -1.5px;
+    letter-spacing: -1px;
+    color: #a7a7a7;
+}
+#already>a{
+    color: white;
+}	
+#protected{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    word-spacing: -1px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-top: 40px;
+    color: #a7a7a7;
+}
+#protected>a{
+    color: #a7a7a7;
+}
+
